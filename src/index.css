@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+* {font-size: 16px;}
+body {
+  margin: 0;
+  font-family: 'Mitr', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+}
+
+code {
+  font-family: 'Mitr', sans-serif;
+}
+
+.barmain{
+  height: 550px;
+  background-color: #ccc;
+  background: url(img/bg2.jpg);
+  align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: center center;
+}
+
+.fw400{
+  font-weight: 400;
+}
+
+.fs4{
+  font-size: 4em;
+}
+
+.fs2{
+  font-size: 2em;
+}
+
+.fs15{
+  font-size: 1.5em;
+}
+
+.bdr30{
+  border-radius: 30px;
+}
+
+.detailmotel{
+  font-size: 14px;
+}
+
+.fcw{
+  color: #fff;
+}
+
+.bgviolet{
+  background:#4202de;
+}
+
+.btnviolet {
+  color: #fff !important;
+  background-color: #4202de !important;
+  border-color: #4202de !important;
+  border-radius: 30px !important;
+}
+
+.bgw{
+  background: #fff;
+}
