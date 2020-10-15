@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Col, Button, Form} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-class App extends Component {
-  render() {
 
+function App() {
   return (
  
 <div className="barmain">
@@ -21,7 +20,7 @@ class App extends Component {
     
   <Col lg="10" className="py-0 px-4">
   <Form.Group className="my-0 py-3">
-    <Form.Control className="form-control-lg border-0 rounded-0" type="text" placeholder="ค้นหาชื่อ / สถานที่" />
+    <Form.Control className="form-control-lg border-0 rounded-0 text-center text-md-left" type="text" placeholder="ค้นหาชื่อ / สถานที่" />
   </Form.Group>
   </Col>
   <Col lg="2" className="text-center p-0">
@@ -38,7 +37,6 @@ class App extends Component {
 
 
   );
-}
 }
 
 export default App;

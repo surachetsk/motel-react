@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Header from './components/Header';
 import Nearmotel from './components/Nearmotel';
+import Footer from './components/footer';
+// import Effect4 from './Effect4';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -11,6 +13,9 @@ ReactDOM.render(
     <Header/>
     <App />
     <Nearmotel />
+    <Footer />
+    {/* <Effect4 /> */}
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

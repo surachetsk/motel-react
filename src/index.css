@@ -1,13 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: QuarkLight;
+  src: url(fonts/Quark-Light.otf);
+}
+
+@font-face {
+  font-family: QuarkBold;
+  src: url(fonts/Quark-Bold.otf);
+}
+
 * {font-size: 16px;}
 body {
   margin: 0;
-  font-family: 'Mitr', sans-serif !important;
+  font-family: 'Kanit', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px !important;
   font-weight: 300 !important;
 }
+
+.container {
+  max-width: 1440px !important;
+}
+
+.titlenamehotel{
+  font-size: 1.6em;
+  color: #071c55;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.topicmain{
+  color: #000000;
+}
+
+.pricehotelmain{
+  font-size: 1.6em;
+  color: #d80c28;
+  font-weight: 500;
+}
+
+.fw500{
+  font-weight: 500;
+}
+
+.bdr{
+  border-radius: 12px;
+}
+
+.image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.image-box img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+.boxmotel:hover .image-box img  {
+  transform: scale(1.1);
+}
+
 
 code {
   font-family: 'Mitr', sans-serif;
@@ -36,7 +101,12 @@ code {
 }
 
 .fs15{
-  font-size: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.fsbarbot{
+  font-size: 13px;
 }
 
 .bdr30{
@@ -52,7 +122,7 @@ code {
 }
 
 .bgviolet{
-  background:#4202de;
+  background:#111b8e;
 }
 
 .btnviolet {
@@ -64,4 +134,44 @@ code {
 
 .bgw{
   background: #fff;
+}
+
+.txtcoloryellow{
+  color: gold;
+}
+
+.pricediscount{
+  text-decoration: line-through;
+}
+
+.telnum{
+  font-size: 1.5em;
+}
+
+.mailfooter{
+  font-size: 1.5em;
+}
+
+.copyright{
+  background: #0f1771;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1280px) {
+  .titlenamehotel{
+    font-size: 1.1em;
+  }
+
+  .pricehotelmain{
+    font-size: 1.1em;
+  }
+
+  .telnum{
+    font-size: 1.1em;
+  }
+  
+  .mailfooter{
+    font-size: 1.1em;
+  }
+  
 }
